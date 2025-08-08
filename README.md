@@ -97,7 +97,7 @@ A PySide6-based Python desktop application and work station for medical image vi
 
   │   ├── abstract_interactor_style.py
 
-  │   └── segmentation/
+  └── segmentation/
 
   │       ├── __init__.py
 
@@ -134,8 +134,8 @@ A PySide6-based Python desktop application and work station for medical image vi
   │   └── io_utils.py
 
 └── viewers/
-    ├── __init__.py
     └── viewer_2d.py
+    ├── __init__.py
 
 # 1. GUI Components
 - **MainWindow.py**
@@ -170,5 +170,6 @@ A PySide6-based Python desktop application and work station for medical image vi
 - **ImageDetailsPage.py**
     * DICOM metadata browser
     * Pixel statistics analyzer
+
 
 
