@@ -82,6 +82,7 @@ A PySide6-based Python desktop application and work station for medical image vi
 
 ## Project Structure
 .
+
 |-- .gitignore
 
 |-- README.md
@@ -90,19 +91,19 @@ A PySide6-based Python desktop application and work station for medical image vi
 
 |-- requirements.txt
 
-|-- interactors
+|-- interactors/
 
 |   |-- __init__.py
 
 |   |-- abstract_interactor_style.py
 
-|-- segmentation
+|   |-- segmentation/
 
 |   |-- __init__.py
 
 |   |-- polygon_segmentation_tool.py
 
-|-- ui
+|-- ui/
 
 |   |-- __init__.py
 
@@ -124,7 +125,7 @@ A PySide6-based Python desktop application and work station for medical image vi
 
 |   |-- split_viewer_page.py
 
-|-- utils
+|-- utils/
 
 |   |-- __init__.py
 
@@ -132,9 +133,8 @@ A PySide6-based Python desktop application and work station for medical image vi
 
 |   |-- io_utils.py
 
-|-- viewers
+|-- viewers/
     |-- viewer_2d.py
-    |-- __init__.py
 
 # 1. GUI Components
 - **MainWindow.py**
@@ -169,6 +169,7 @@ A PySide6-based Python desktop application and work station for medical image vi
 - **ImageDetailsPage.py**
     * DICOM metadata browser
     * Pixel statistics analyzer
+
 
 
 
