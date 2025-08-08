@@ -93,50 +93,48 @@ A PySide6-based Python desktop application and work station for medical image vi
 
 ├── interactors/
 
-│   ├── __init__.py
+  │   ├── __init__.py
 
-│   ├── abstract_interactor_style.py
+  │   ├── abstract_interactor_style.py
 
-│   └── segmentation/
+  │   └── segmentation/
 
-│       ├── __init__.py
+  │       ├── __init__.py
 
-│       └── polygon_segmentation_tool.py
+  │       └── polygon_segmentation_tool.py
 
 ├── ui/
 
-│   ├── __init__.py
+  │   ├── __init__.py
 
-│   ├── main_window.py
+  │   ├── main_window.py
 
-│   ├── top_bar.py
+  │   ├── top_bar.py
 
-│   ├── left_dock.py
+  │   ├── left_dock.py
 
-│   ├── right_dock.py
+  │   ├── right_dock.py
 
-│   ├── visualizer_page.py
+  │   ├── visualizer_page.py
 
-│   ├── navigation_sidebar.py
+  │   ├── navigation_sidebar.py
 
-│   ├── train_status_page.py
+  │   ├── train_status_page.py
 
-│   ├── image_details_page.py
+  │   ├── image_details_page.py
 
-│   └── split_viewer_page.py
+  │   └── split_viewer_page.py
 
 ├── utils/
 
-│   ├── __init__.py
+  │   ├── __init__.py
 
-│   ├── image_utils.py
+  │   ├── image_utils.py
 
-│   └── io_utils.py
+  │   └── io_utils.py
 
 └── viewers/
-
     ├── __init__.py
-    
     └── viewer_2d.py
 
 # 1. GUI Components
@@ -172,4 +170,5 @@ A PySide6-based Python desktop application and work station for medical image vi
 - **ImageDetailsPage.py**
     * DICOM metadata browser
     * Pixel statistics analyzer
+
 
