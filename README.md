@@ -63,7 +63,7 @@ A PySide6-based Python desktop application and work station for medical image vi
 
 # 1. Go to repository:
   ```bash
-    cd AIClinet
+    cd AI-Medical
   ```
 # 2. Install dependencies:
   ```bash
@@ -81,34 +81,62 @@ A PySide6-based Python desktop application and work station for medical image vi
 - file > Open: Load medical images
 
 ## Project Structure
-AlClient/
+/
+
 ├── main.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── .gitignore
+
 ├── interactors/
+
 │   ├── __init__.py
+
 │   ├── abstract_interactor_style.py
+
 │   └── segmentation/
+
 │       ├── __init__.py
+
 │       └── polygon_segmentation_tool.py
+
 ├── ui/
+
 │   ├── __init__.py
+
 │   ├── main_window.py
+
 │   ├── top_bar.py
+
 │   ├── left_dock.py
+
 │   ├── right_dock.py
+
 │   ├── visualizer_page.py
+
 │   ├── navigation_sidebar.py
+
 │   ├── train_status_page.py
+
 │   ├── image_details_page.py
+
 │   └── split_viewer_page.py
+
 ├── utils/
+
 │   ├── __init__.py
+
 │   ├── image_utils.py
+
 │   └── io_utils.py
+
 └── viewers/
+
     ├── __init__.py
+    
     └── viewer_2d.py
 
 # 1. GUI Components
@@ -144,3 +172,4 @@ AlClient/
 - **ImageDetailsPage.py**
     * DICOM metadata browser
     * Pixel statistics analyzer
+
